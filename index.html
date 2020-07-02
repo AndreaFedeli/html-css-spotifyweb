@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <title>Spotify</title>
   </head>
 
   <body>
     <div class="container-flex">
-        <aside>
+      <aside>
       <div class="logo">
-        <img src="img/spot.png"width="150px" height="80px" alt="">
+        <img src="img/s.png"width="200px" height="50px" alt="">
       </div>
+      <br>
 
       <div class="home">
         <i class="fas fa-home">HOME</i>
@@ -33,8 +35,9 @@
       <br>
       <br>
       <h3>PLAYLIST</h3>
-      
+
       <div class="playlist">
+        <br>
         <i class="far fa-plus-square">CREA LA TUA PLAYLIST</i>
       </div>
       <br>
@@ -55,30 +58,24 @@
       <div class="user">
         <br>
         <h4>A.Fedeli</h4>
-
       </div>
     </aside>
-
-
     <main>
       <div class="upgrade"></div>
 
-
       <div class="list">
-      <p>IN EVIDENZA</p>
-      <p>PODCAST</p>
-      <p>CLASSIFICHE</p>
-      <p>GENERI E MOOD</p>
-      <p>NUOVE USCITE</p>
-      <p>SCOPRI</p>
+      <h3>IN EVIDENZA</h3>
+      <h3>PODCAST</h3>
+      <h3>CLASSIFICHE</h3>
+      <h3>GENERI E MOOD</h3>
+      <h3>NUOVE USCITE</h3>
+      <h3>SCOPRI</h3>
       </div>
-
-
 
 
       <div class="music">
         <div class="title">
-          <h2>Creato per te</h2>
+          <h2>Scelti per te</h2>
         </div>
 
         <div class="band">
@@ -133,16 +130,11 @@
           <img src="img/chemical.jpg" width="180px" height="180px" alt="">
           <h3>The Chemical Brothers
         </div>
-
-
-        </div>
+      </div>
 
     </div>
     </main>
 
-
-
-    </div>
 
     <div class="player">
       <div class="track">
@@ -161,19 +153,22 @@
           <i class="fas fa-step-forward"></i>
           &emsp;&emsp;
           <i class="fas fa-redo-alt"></i>
-        </div>
-
-        <div class="bar">
-          <hr>
-          <i class="far fa-circle"></i>
-          <hr>
+          <br>
+          <span>0:25</span>
+          <progress value="10" max="100"> 10% </progress>
+          <span>4:35</span>
 
         </div>
+        <div class="volume">
+          <i class="fas fa-list"></i>
+          &emsp;
+          <i class="fas fa-desktop"></i>
+          &emsp;
+          <i class="fas fa-volume-up"></i>
 
-        <div class="volume"></div>
+
+        </div>
 
     </div>
-
-
   </body>
 </html>

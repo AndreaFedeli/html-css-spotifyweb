@@ -4,11 +4,33 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width:768px) {
+
+.list
+ {    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+.band{
+  display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+}
 
 .container-flex{
   display: flex;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
 
 }
 
@@ -31,8 +53,34 @@ aside {
 
 }
 
+aside h3{
+  padding-top: 30px;
+
+}
+
+aside li {
+  padding-top: 10px;
+
+}
+
 aside i:hover {
   color: red;
+}
+
+.home{
+  margin-top: 10px;
+
+
+}
+
+.search{
+  margin-top: 10px;
+}
+
+.library{
+  margin-top: 10px;
+
+
 }
 
 

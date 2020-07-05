@@ -7,25 +7,42 @@
 @media screen and (max-width:768px) {
 
 .list
- {    display: flex;
+ {      display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+
+
 }
 
 .band{
-  display: flex;
+     display: flex;
      flex-direction: column;
      align-items: flex-start;
+     width: 50%;
+
 }
 
 .player {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+  width: 10%;
+  height: 10%;
+
+}
+.buttons i{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  justify-content: flex-start;
+
+
 
 }
 
 }
+
+
 
 .container-flex{
   display: flex;
